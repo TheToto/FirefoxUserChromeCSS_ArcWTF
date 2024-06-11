@@ -137,7 +137,7 @@
   border-left-style: solid !important;
 }
 
-#main-window[titlepreface*="|| "] {
+#main-window:root[titlepreface="᠎"] {
   --ovrl-wdt: var(--ovrl-max-wdt);
 
   & :is(#sidebar-box) {
